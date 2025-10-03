@@ -39,7 +39,7 @@ A modern **Next.js 15** application that showcases featured products with intera
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/gyanish0/product-app.git
 cd product-app
 ```
 
