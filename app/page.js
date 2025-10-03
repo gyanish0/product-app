@@ -1,9 +1,10 @@
+import { products } from '@/data/products';
 import ProductCard from '../components/ProductCard';
 import ThemeToggle from '../components/ThemeToggle';
 
 export default async function Home() {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || ''}/api/products`);
-  const products = await res.json();
+
+
 
   return (
     <main className="min-h-screen p-8 bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-900 dark:to-black">
